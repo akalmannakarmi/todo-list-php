@@ -34,15 +34,15 @@
                 <li>
                     <?php echo $row["name"] ?>
                     <?php echo $row["due_date"] ?>
-                    <a href="/updateTask?id=<?php echo $row["id"] ?>">Edit</a>
-                    <a href="/removeTask?id=<?php echo $row["id"] ?>">Delete</a>
+                    <a href="updateTask.php?id=<?php echo $row["id"] ?>">Edit</a>
+                    <a href="removeTask.php?id=<?php echo $row["id"] ?>">Delete</a>
                 </li>
                 <?php }?>
             </ol>
         <?php }?>
     </main>
     <footer>
-        <form action="/addTask" method="post">
+        <form action="addTask.php" method="post">
             <label for="task">Task:</label>
             <input type="text" name="task" id="task"><br>
             <label for="due-date">Due Date:</label>
