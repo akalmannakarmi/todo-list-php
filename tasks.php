@@ -6,7 +6,6 @@
     <title>TodoList</title>
 </head>
 <body>
-    hello
     <?php
     $servername = "localhost";
     $username = "root";
