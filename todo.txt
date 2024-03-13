@@ -1,5 +1,5 @@
 [X] Create DB
-[ ] Implement Tasks List
+[X] Implement Tasks List
 [ ] Implement Add Task
 [ ] Implement Remove Task
 [ ] Implement Update Task
