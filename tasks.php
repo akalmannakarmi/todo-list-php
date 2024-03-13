@@ -33,7 +33,7 @@
                 <li>
                     <?php echo $row["name"] ?>
                     <?php echo $row["due_date"] ?>
-                    <a href="updateTask.php?id=<?php echo $row["id"] ?>">Edit</a>
+                    <a href="editTask.php?id=<?php echo $row["id"] ?>">Edit</a>
                     <a href="removeTask.php?id=<?php echo $row["id"] ?>">Delete</a>
                 </li>
                 <?php }?>
